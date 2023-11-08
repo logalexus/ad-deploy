@@ -1,0 +1,75 @@
+game:
+  mode: classic
+  round_time: 20
+  start_time: 2019-11-30 15:30:00
+  timezone: Europe/Moscow
+
+  default_score: 0
+  flag_lifetime: 5
+  game_hardness: 10.0
+  inflation: true
+
+tasks:
+  - checker: hyperborea-legends/hyperborea-legends.checker.py
+    checker_timeout: 10
+    checker_type: pfr
+    gets: 2
+    name: hyperborea
+    places: 1
+    puts: 2
+
+  - checker: memos/memos.checker.py
+    checker_timeout: 10
+    checker_type: pfr
+    gets: 2
+    name: memos
+    places: 1
+    puts: 2
+
+  - checker: perune/perune.checker.py
+    checker_timeout: 10
+    checker_type: pfr
+    gets: 2
+    name: perune
+    places: 1
+    puts: 2
+
+  - checker: rusi-trainer/rusi-trainer.checker.py
+    checker_timeout: 10
+    checker_type: pfr
+    gets: 2
+    name: rusi-trainer
+    places: 1
+    puts: 2
+
+  - checker: rustest/rustest.checker.py
+    checker_timeout: 10
+    checker_type: pfr
+    gets: 2
+    name: rustest
+    places: 1
+    puts: 2
+    
+  - checker: werk/werk.checker.py
+    checker_timeout: 10
+    checker_type: pfr
+    gets: 2
+    name: werk
+    places: 1
+    puts: 2
+    
+
+teams:
+  - ip: 10.10.10.2
+    name: "SIGAN"
+
+  - ip: 10.10.10.3
+    name: "mbl"
+
+  - ip: 10.10.10.4
+    name: "freeplay_club"
+  
+  - ip: 10.10.10.5
+    name: "n0-flag strat"
+
+  
