@@ -3,5 +3,6 @@
 set -ex
 
 for f in */checker.py; do
-    chmod +x f
+    echo $f
+    chmod +x $f
 done
