@@ -24,10 +24,10 @@ sudo apt-get install python3-venv -y
 python3 -m venv venv
 source venv/bin/activate
 
-#checkers requirements
+#checkers perms
 cd ./checkers
-chmod +x ./install_checker_requirements.sh
-./install_checker_requirements.sh
+chmod +x ./set_permissions.sh
+./set_permissions.sh
 cd ../
 
 #cli requirements

@@ -10,54 +10,67 @@ game:
   inflation: true
 
 tasks:
-  - checker: hyperborea-legends/hyperborea-legends.checker.py
+  - checker: exoplanet/checker.py
     checker_timeout: 10
     checker_type: pfr
     gets: 2
-    name: hyperborea
+    name: exoplanet
     places: 1
     puts: 2
 
-  - checker: memos/memos.checker.py
+tasks:
+  - checker: grox/checker.py
     checker_timeout: 10
     checker_type: pfr
     gets: 2
-    name: memos
+    name: grox
     places: 1
     puts: 2
 
-  - checker: perune/perune.checker.py
+tasks:
+  - checker: ice-and-fire/checker.py
     checker_timeout: 10
     checker_type: pfr
     gets: 2
-    name: perune
+    name: ice-and-fire
     places: 1
     puts: 2
 
-  - checker: rusi-trainer/rusi-trainer.checker.py
+tasks:
+  - checker: martian/checker.py
     checker_timeout: 10
     checker_type: pfr
     gets: 2
-    name: rusi-trainer
+    name: martian
     places: 1
     puts: 2
 
-  - checker: rustest/rustest.checker.py
+tasks:
+  - checker: msp/checker.py
     checker_timeout: 10
     checker_type: pfr
     gets: 2
-    name: rustest
+    name: msp
     places: 1
     puts: 2
-    
-  - checker: werk/werk.checker.py
+
+tasks:
+  - checker: planetzor/checker.py
     checker_timeout: 10
     checker_type: pfr
     gets: 2
-    name: werk
+    name: planetzor
     places: 1
-    puts: 2
-    
+    puts: 2  
+
+tasks:
+  - checker: spacesos/checker.py
+    checker_timeout: 10
+    checker_type: pfr
+    gets: 2
+    name: spacesos
+    places: 1
+    puts: 2  
 
 teams:
   - ip: 10.10.10.2

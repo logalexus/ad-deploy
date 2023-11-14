@@ -1,1 +1,8 @@
-checklib==0.7.0
+checklib
+requests
+protobuf
+gevent
+bs4
+lxml
+pwntools
+grpcio
