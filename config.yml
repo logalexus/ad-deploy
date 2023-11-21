@@ -18,7 +18,6 @@ tasks:
     places: 1
     puts: 2
 
-tasks:
   - checker: grox/checker.py
     checker_timeout: 10
     checker_type: pfr
@@ -27,7 +26,6 @@ tasks:
     places: 1
     puts: 2
 
-tasks:
   - checker: ice-and-fire/checker.py
     checker_timeout: 10
     checker_type: pfr
@@ -36,7 +34,6 @@ tasks:
     places: 1
     puts: 2
 
-tasks:
   - checker: martian/checker.py
     checker_timeout: 10
     checker_type: pfr
@@ -45,7 +42,6 @@ tasks:
     places: 1
     puts: 2
 
-tasks:
   - checker: msp/checker.py
     checker_timeout: 10
     checker_type: pfr
@@ -54,7 +50,6 @@ tasks:
     places: 1
     puts: 2
 
-tasks:
   - checker: planetzor/checker.py
     checker_timeout: 10
     checker_type: pfr
@@ -63,7 +58,6 @@ tasks:
     places: 1
     puts: 2  
 
-tasks:
   - checker: spacesos/checker.py
     checker_timeout: 10
     checker_type: pfr
